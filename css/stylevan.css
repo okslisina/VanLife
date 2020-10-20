@@ -49,14 +49,12 @@ body {
 
 .slider{
     font-family: 'Raleway', sans-serif;
-    -webkit-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
-    -moz-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
-    box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
+    
 }
 .article {
     margin: 8% 0 8% 0;
     background-color: rgba(255, 255, 255, 0.747);
-    padding: 2%;
+    padding: 4%;
 
     -webkit-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
 -moz-box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
@@ -65,18 +63,21 @@ box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
 
 
 .form{
-    color: white;
+    text-align:left;
     background-image: url(../img/bg_form.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 }
 
+.btn-form{
+    width:100%;
+    background: rgba(255, 255, 255, 0.747);
+    
+} 
 .btn1 {
     background: rgb(38, 46, 99);
     background: linear-gradient(90deg, rgba(38, 46, 99, 1) 12%, rgba(68, 134, 130, 1) 60%, rgba(165, 233, 206, 1) 98%);
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.61);
+    border: 1px solid white;
     color: white;
     cursor: pointer;
     font-size: 0.8rem;
@@ -89,39 +90,43 @@ box-shadow: 0px 0px 11px 7px rgba(34, 60, 80, 0.39);
     font-size: 15px;
 }
 
+.btn1:hover {
+    background:white;
+    border: 1px solid rgba(68, 134, 130, 1);
+    color: rgba(68, 134, 130, 1);
+
+}
 .footer {
 
-    color: white;
     font-size: 15px;
     text-align: center;
-    padding: 10px 10px 0px 0px;
+    
     
 }
 
-@media  (max-width: 1200px ){
+.footer a{
+    color:white;
+}
+.footer a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
 
-    .menu {
-        font-size: 13px;
-    } 
+.inst{
+    text-align: center;
+    width: 100% ;
 
 }
 
 @media  (max-width: 992px ) {
-    .menu li,.menu1 a, .logo{
+    .menu {
+        font-size: 10px;
+    } 
+
+    .logo{
         font-size: 20px;
     } 
 }
 
 
-@media  (max-width: 768px ) {
-    .menu li,.menu1 a, .logo{
-        font-size: 15px;
-    } 
-}
-
-@media  (max-width: 576px ) {
-    .menu li,.menu1 a,{
-        font-size: 8px;
-    } 
-    
-}
